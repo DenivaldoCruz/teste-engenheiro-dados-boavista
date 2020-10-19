@@ -1,24 +1,24 @@
-#Teste de Engenharia de Dados
+# Teste de Engenharia de Dados
 
-##Solução de ingestão de dados no Data Lake AWS
+## Solução de ingestão de dados no Data Lake AWS
 
-###Desafio:
+### Desafio:
 - (1) Fazer a modelagem conceitual dos dados, 
 - (2) Criar a infraestrutura necessária e 
 - (3) criar todos os artefatos necessários para carregar os arquivos para o banco criado. 
 
-####Arquivos a serem carregados:
+#### Arquivos a serem carregados:
     comp_boss.csv
     bill_of_materials.csv
     price_quote.csv
     
-###Solução:
-####Arquitetura
+### Solução:
+#### Arquitetura
 Stack: Amazon S3 -> AWS Glue -> AWS Athena -> Amazon Quicksight
 
-####Implementação
+#### Implementação
 
-#####Ingestão de dados no S3 Bucket
+##### Ingestão de dados no S3 Bucket
 
 A ingestão dos dados pode ser feita executando o script Python upload_files_to_aws.py ou via console AWS.
 
